@@ -56,7 +56,8 @@
         "EnablePreviewFeatures": true,
         "CloseUnusedDirectMessages": false,
         "EnableTutorial": true,
-        "ExperimentalEnableDefaultChannelLeaveJoinMessages": true
+        "ExperimentalEnableDefaultChannelLeaveJoinMessages": true,
+        "ExperimentalGroupUnreadChannels": false
     },
     "TeamSettings": {
         "SiteName": "Mattermost",
