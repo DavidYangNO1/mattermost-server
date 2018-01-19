@@ -238,6 +238,7 @@ func (a *App) trackConfig() {
 		"enable_user_statuses":                                    *cfg.ServiceSettings.EnableUserStatuses,
 		"close_unused_direct_messages":                            *cfg.ServiceSettings.CloseUnusedDirectMessages,
 		"experimental_enable_default_channel_leave_join_messages": *cfg.ServiceSettings.ExperimentalEnableDefaultChannelLeaveJoinMessages,
+		"experimental_group_unread_channels":                      *cfg.ServiceSettings.ExperimentalGroupUnreadChannels,
 	})
 
 	a.SendDiagnostic(TRACK_CONFIG_TEAM, map[string]interface{}{
